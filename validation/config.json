@@ -1,3 +1,8 @@
 {
-  "macros": ["example.mac"]
+  "macros": [
+    "dna_opt2_10keV_FLUCTtrue.mac",
+    "dna_opt2_15keV_FLUCTtrue.mac",
+    "dna_opt2_100keV_FLUCTtrue.mac",
+    "dna_opt2_1000keV_FLUCTtrue.mac"
+  ]
 }
