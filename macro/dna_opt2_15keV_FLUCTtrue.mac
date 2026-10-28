@@ -1,0 +1,29 @@
+#
+/control/verbose 2
+/run/verbose 2
+#
+/testem/det/setMat G4_WATER
+/testem/det/setRadius  3 cm
+#
+/testem/phys/addPhysics  dna_opt2
+/process/eLoss/fluct true 
+#
+/run/setCut 2 nm
+#
+#
+/run/initialize
+#
+/gun/particle e-
+/gun/energy 15 keV
+#
+/analysis/setFileName output
+#
+#
+/analysis/h1/set 8 120  0.    1.2 none  #normalized edep profile
+#
+/run/printProgress 1000
+#
+/run/beamOn 100000
+
+
+
